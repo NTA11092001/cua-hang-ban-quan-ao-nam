@@ -1,0 +1,37 @@
+<?php
+    if(isset($_GET['quanly'])){
+        $tam = $_GET['quanly'];
+    }else{
+        $tam='';
+        include("pages/banner.php");
+        include("trangchu.php");
+    }
+    if($tam=='danhmucsanpham'){
+        include("pages/banner.php");
+        include("main/danhmucsanpham.php");
+    }elseif($tam=='sanpham'){
+        include("pages/banner.php");
+        include("main/sanpham.php");
+    }elseif($tam=='giohang'){
+        include("main/giohang.php");
+    }elseif($tam=='lienhe'){
+        include("main/lienhe.php");
+    }elseif($tam=='timkiem'){
+        include("pages/banner.php");
+        include("main/timkiem.php");
+    }elseif($tam=='doimatkhau'){
+        include("main/doimatkhau.php");
+    }elseif($tam=='vanchuyen'){
+        include("main/vanchuyen.php");
+    }elseif($tam=='thongtinthanhtoan'){
+        include("main/thongtinthanhtoan.php");
+    }elseif($tam=='donhangdadat'){
+        include("main/donhangdadat.php");
+    }elseif($tam=='lichsudathang'){
+        include("main/lichsudathang.php");
+    }elseif($tam=='xemdonhang'){
+        include("main/xemdonhang.php");
+    }else{
+        $tam='';
+    }
+?>

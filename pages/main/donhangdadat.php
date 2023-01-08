@@ -1,0 +1,2 @@
+<h1 style="color:red;text-align:center">Cảm ơn bạn đã đặt hàng. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất!</h1>
+<div class="d-flex justify-content-center"><img class="img-fuild" src="img/Man-in-Regeneration_1_1200x628x750x750x4.png"></div>

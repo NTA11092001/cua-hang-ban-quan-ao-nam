@@ -1,0 +1,9 @@
+.login-img::after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  z-index: 10;
+}
+
